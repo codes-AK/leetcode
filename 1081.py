@@ -9,9 +9,7 @@ class Solution:
             if char in seen:
                 continue
 
-            
-
-
+        
             while stack and stack[-1] > char and last_occurrence[stack[-1]] > i:
                 removed_char = stack.pop()
                 seen.remove(removed_char)
