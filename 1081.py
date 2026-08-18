@@ -2,9 +2,6 @@ class Solution:
     def smallestSubsequence(self, s: str) -> str:
         last_occurrence = {char: i for i, char in enumerate(s)}
 
-
-        
-
         stack = []
         seen = set()
 
