@@ -17,4 +17,8 @@ class Solution:
             result.append(shifted_flat[i : i + n])
 
         return result
-        
+
+
+
+
+
