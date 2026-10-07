@@ -12,3 +12,25 @@ class Solution:
                 else:
                     max_len = max(max_len, i - stack[-1])
         return max_len
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
